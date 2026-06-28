@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reports</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>📊 SaaSPro</h2>
+    <a href="index.html">Dashboard</a>
+    <a href="customers.html">Customers</a>
+    <a href="reports.html">Reports</a>
+    <a href="login.html">Login</a>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <h1>Reports</h1>
+        <input type="text" id="searchInput" class="search-box" placeholder="Search reports..." onkeyup="searchContent()">
+        <div class="notification">🔔</div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Monthly Sales</h3>
+            <p>$<span class="count" data-target="89500">0</span></p>
+        </div>
+
+        <div class="card">
+            <h3>New Signups</h3>
+            <p><span class="count" data-target="1245">0</span></p>
+        </div>
+
+        <div class="card">
+            <h3>Retention</h3>
+            <p>94%</p>
+        </div>
+    </div>
+
+    <div class="chart">
+        <h2>Performance Graph</h2>
+        <div class="bars">
+            <div style="height:100px"></div>
+            <div style="height:180px"></div>
+            <div style="height:150px"></div>
+            <div style="height:230px"></div>
+            <div style="height:260px"></div>
+            <div style="height:220px"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

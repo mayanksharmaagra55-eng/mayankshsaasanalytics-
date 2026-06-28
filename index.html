@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SaaS Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>📊 SaaSPro</h2>
+    <a href="index.html">Dashboard</a>
+    <a href="customers.html">Customers</a>
+    <a href="reports.html">Reports</a>
+    <a href="login.html">Login</a>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <h1>Analytics Dashboard</h1>
+        <input type="text" id="searchInput" class="search-box" placeholder="Search..." onkeyup="searchContent()">
+        <div class="notification">🔔</div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Revenue</h3>
+            <p>$<span class="count" data-target="48920">0</span></p>
+        </div>
+
+        <div class="card">
+            <h3>Users</h3>
+            <p><span class="count" data-target="12540">0</span></p>
+        </div>
+
+        <div class="card">
+            <h3>Conversion</h3>
+            <p>8.4%</p>
+        </div>
+
+        <div class="card">
+            <h3>Growth</h3>
+            <p>+23%</p>
+        </div>
+    </div>
+
+    <div class="chart">
+        <h2>Revenue Growth</h2>
+        <div class="bars">
+            <div style="height:120px"></div>
+            <div style="height:180px"></div>
+            <div style="height:140px"></div>
+            <div style="height:230px"></div>
+            <div style="height:270px"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
